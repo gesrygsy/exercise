@@ -1,4 +1,4 @@
-a = input("Input your charaters:")
+a = input("Input your characters:")
 b = []
 r = ""
 
