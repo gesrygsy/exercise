@@ -14,4 +14,4 @@ count_characters()
 
 from collections import Counter
 
-print(Counter(input("Inputer a char:")))
+print(Counter(input("Input a char:")))
