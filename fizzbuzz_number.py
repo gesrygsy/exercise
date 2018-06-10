@@ -10,7 +10,9 @@ class Numbers:
     def fizzbuzz(self):
         self.list_fb = []
         for i in range(1, self.n+1):
-            if i % 3 == 0:
+            if i % 3 == 0 and i % 5 == 0:
+                i = "fizzbuzz"
+            elif i % 3 == 0:
                 i = "fizz"
             elif i % 5 == 0:
                 i = "buzz"
